@@ -1,0 +1,9 @@
+dog(fido).
+cat(felix).
+animal(X):-dog(X).
+animal(X):-cat(X).
+animal(lion).
+animal(tiger).
+animal(cow).
+carnivore(lion).
+carnivore(tiger).
